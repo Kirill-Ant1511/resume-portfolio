@@ -1,0 +1,106 @@
+@import "tailwindcss";
+
+
+body {
+  @apply bg-neutral-800 text-white;
+}
+
+@layer utilities {
+  .text-gradient-brand {
+    @apply bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 bg-clip-text text-transparent;
+  }
+}
+
+.profile__photo {
+  position: relative;
+  padding: 5px;
+  transition: all 0.3s ease;
+}
+
+.profile__photo::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 3px;
+  height: 0;
+  background: linear-gradient(135deg, rgba(255, 0, 150, 1), rgba(0, 255, 255, 1));
+  opacity: 1;
+  transition: height 1s ease;
+  border-radius: 999px;
+}
+
+.profile__photo.active::before {
+  height: 90%;
+}
+
+.profile__photo::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 3px;
+  background: linear-gradient(135deg,rgba(0, 255, 255, 1), rgba(255, 0, 150, 1));
+  opacity: 1;
+  transition: width 1s ease;
+  border-radius: 999px;
+}
+
+.profile__photo.active::after {
+  width: 65%;
+}
+
+.profile__img {
+  opacity: 0;
+  transform: translateY(-10%);
+}
+
+.profile__img.viewing {
+  opacity: 1;
+  transform: translateY(0);
+  transition: all 1s ease;
+}
+
+.about__text {
+  opacity: 0;
+  transform: translateY(10%);
+}
+
+.about__text.active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: all 1s ease;
+}
+
+
+.stack__list {
+  opacity: 0;
+}
+
+.stack__list.viewing {
+  opacity: 1;
+  transition: opacity 1s ease;
+}
+
+.stage {
+  opacity: 0;
+  transform: translateX(20%);
+}
+
+.stage.viewing {
+  opacity: 1;
+  transform: translateX(0);
+  transition: all 1s ease;
+}
+
+.project {
+  opacity: 0;
+  transform: translateX(20%);
+}
+
+.project.viewing {
+  opacity: 1;
+  transform: translateX(0);
+  transition: all 1s ease;
+}

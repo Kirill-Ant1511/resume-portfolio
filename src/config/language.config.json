@@ -1,0 +1,143 @@
+{
+    "ru": {
+        "about": {
+            "name": "Кирилл",
+            "surname": "Антоненко",
+            "patronymic": "Максимович",
+            "description": "Привет! Я Кирилл, Frontend-разработчик с 2 годами опыта. Я специализируюсь на создании красивых и функциональных веб-приложений с помощью React, TypeScript и Tailwind CSS. Моя цель - создавать интуитивно понятные интерфейсы, которые обеспечивают отличный пользовательский опыт. Я всегда стремлюсь учиться новому и совершенствовать свои навыки, чтобы создавать современные и эффективные решения для своих проектов.",
+            "university": "СПбГУТ",
+            "degree": "Бакалавр"
+        },
+        "career": [
+            {
+                "company": "Школа программирования HeadHunter",
+                "position": "Frontend Developer",
+                "duration": "Февраль 2025 - Август 2025",
+                "description": "- Проходил обучение в рамках интенсивного курса по frontend-разработке, где получил глубокие знания и практические навыки в создании современных веб-приложений. \n- Изучал продвинутые концепции JavaScript, TypeScript, React, а также знакомился с лучшими практиками разработки и инструментами, используемыми в индустрии. \n- Участвовал в разработке комплексных учебных проектов, что позволило мне применить полученные знания на практике, улучшить навыки решения реальных задач."
+            },
+            {
+                "company": "Полюс Геосервис",
+                "position": "Frontend Developer",
+                "duration": "Январь 2024 - Январь 2026",
+                "description": "- Спроектировал архитектуру и реализовал frontend- и backend-части сервиса: от проработки UI/UX и адаптивной вёрстки до написания REST API, бизнес-логики и интеграции с базой данных.\n- Спроектировал схему реляционной БД, настроил миграции, индексы и оптимизировал сложные запросы, обеспечив стабильную работу при регулярном росте объёма отчётов.\n- Обеспечил качество кода: внедрил unit- и e2e-тестирование frontend-части, настроил автоматические проверки в CI/CD-пайплайне, что снизило количество дефектов в production.\n- Провёл комплексную оптимизацию производительности: ускорил загрузку ключевых страниц на 15%, сократил время отклика API, внедрил кэширование и lazy loading ресурсов.\n- Поддерживал сервис в production: мониторил метрики, оперативно устранял инциденты, проводил рефакторинг, обновлял зависимости и техническую документацию.\n\nСтек:  React, TypeScript, Node.js/NestJS, PostgreSQL, Docker, Git, Jest/Vitest, GitHub Actions, REST."            
+            }
+        ],
+        "projects": [
+            {
+                "name": "Git Reviewer",
+                "github": "https://github.com/Kirill-Ant1511/react-and-redux-hw",
+                "stack": ["React", "TypeScript", "CSS", "Redux Toolkit"],
+                "description": "С помощью данного проекта я закрепил навыки работы с Redux Toolkit и работы с API.\nПроект представляет собой веб-приложения для поиска ревьювера среди контрибьюторов GitHub. Пользователь может ввести имя репозитория, и приложение выдаёт список контрибьюторов, отсортированных по количеству открытых pull-реквестов. Проект был разработан с использованием React для создания пользовательского интерфейса, TypeScript для обеспечения типизации и CSS для стилизации компонентов.\nВ процессе разработки я научился эффективно использовать Redux Toolkit для управления состоянием приложения и взаимодействия с API GitHub."
+            },
+            {
+                "name": "Sky Tracker",
+                "github": "https://github.com/Kirill-Ant1511/sky-tracker",
+                "stack": ["React", "TypeScript", "Tailwind CSS", "Redux Toolkit", "Leaflet", "react-router-dom"],
+                "description": "Данный проект был разработан для практики работы с API и управления состоянием приложения. Sky Tracker это веб приложения для отслеживания текцщих рейсов. Пользователь может найти рейсы по пункту отправления, назначения и компании, а так же посмотреть детали рейса в реальном времени.\nС помощью данного проекта я закрепил навыки работы с Redux Toolkit для управления состоянием приложения, а также научился эффективно использовать Leaflet для отображения данных на карте и react-router-dom для организации маршрутизации в приложении."
+            },
+            {
+                "name": "Task Flow",
+                "github": "https://github.com/Kirill-Ant1511/task-flow",
+                "stack": ["Next.js", "TypeScript", "Tailwind CSS", "Redux Toolkit", "Lucide React", "date-fns"],
+                "description": "Task Flow это веб-приложение для управления задачами, разработанное с использованием Next.js и TypeScript. Приложение позволяет создавать, редактировать и отслеживать выполнение задач, а также организовывать их по категориям и приоритетам. С помощью данного проекта я закрепил навыки работы с Next.js для создания серверного рендеринга и оптимизации производительности, а также научился эффективно использовать date-fns для работы с датами и временем в приложении."
+            }
+        ],
+        "footer": {
+            "text": "Спасибо за просмотр моего портфолио! Если у вас есть какие-либо вопросы или предложения, не стесняйтесь связаться со мной."
+        }
+    },
+    "en": {
+        "about": {
+            "name": "Kirill",
+            "surname": "Antonenko",
+            "patronymic": "Maksimovich",
+            "description": "Hello! I'm Kirill, a Frontend Developer with 2 years of experience. I specialize in creating beautiful and functional web applications using React, TypeScript, and Tailwind CSS. My goal is to create intuitive interfaces that provide an excellent user experience. I am always eager to learn new things and improve my skills to create modern and efficient solutions for my projects.",
+            "university": "SPbSUT",
+            "degree": "Bachelor"
+        },
+        "career": [
+            {
+                "company": "HeadHunter Programming School",
+                "position": "Frontend Developer",
+                "duration": "February 2025 - August 2025",
+                "description": "- Completed an intensive frontend development course where I gained deep knowledge and practical skills in creating modern web applications. \n- Studied advanced concepts of JavaScript, TypeScript, React, as well as familiarized myself with best development practices and industry tools. \n- Participated in the development of complex training projects, which allowed me to apply the acquired knowledge in practice and improve my skills in solving real-world problems."
+            },
+            {
+                "company": "Polyus Geoservice",
+                "position": "Frontend Developer",
+                "duration": "January 2024 - January 2026",
+                "description": "- Designed the architecture and implemented both frontend and backend parts of the service: from UI/UX development and responsive design to writing REST API, business logic, and database integration.\n- Designed the relational database schema, set up migrations, indexes, and optimized complex queries, ensuring stable operation with regular growth in report volume.\n- Ensured code quality: implemented unit and e2e testing for the frontend part, set up automated checks in the CI/CD pipeline, which reduced the number of defects in production.\n- Conducted comprehensive performance optimization: accelerated loading of key pages by 15%, reduced API response time, implemented caching and lazy loading of resources.\n- Maintained the service in production: monitored metrics, promptly resolved incidents, conducted refactoring, updated dependencies and technical documentation.\n\nStack: React, TypeScript, Node.js/NestJS, PostgreSQL, Docker, Git, Jest/Vitest, GitHub Actions, REST."
+            }
+        ],
+        "projects": [
+            {
+                "name": "Git Reviewer",
+                "github": "https://github.com/Kirill-Ant1511/react-and-redux-hw",
+                "stack": ["React", "TypeScript", "CSS", "Redux Toolkit"],
+                "description": "This project helped me to consolidate my skills in working with Redux Toolkit and API interaction.\nThe project is a web application for finding reviewers among GitHub contributors. The user can enter the repository name, and the application will provide a list of contributors sorted by the number of open pull requests. The project was developed using React for creating the user interface, TypeScript for ensuring type safety, and CSS for styling components.\nDuring development, I learned how to effectively use Redux Toolkit for managing application state and interacting with the GitHub API."
+            },
+            {
+                "name": "Sky Tracker",
+                "github": "https://github.com/Kirill-Ant1511/sky-tracker",
+                "stack": ["React", "TypeScript", "Tailwind CSS", "Redux Toolkit", "Leaflet", "react-router-dom"],
+                "description": "This project was developed to practice working with APIs and managing application state. Sky Tracker is a web application for tracking current flights. The user can find flights by departure point, destination, and company, as well as view flight details in real-time.\nWith this project, I consolidated my skills in working with Redux Toolkit for managing application state, as well as learned how to effectively use Leaflet for displaying data on a map and react-router-dom for organizing routing in the application."
+            },
+            {
+                "name": "Task Flow",
+                "github": "https://github.com/Kirill-Ant1511/task-flow",
+                "stack": ["Next.js", "TypeScript", "Tailwind CSS", "Redux Toolkit", "Lucide React", "date-fns"],
+                "description": "Task Flow is a web application for task management, developed using Next.js and TypeScript. The application allows users to create, edit, and track task completion, as well as organize them by categories and priorities. With this project, I consolidated my skills in working with Next.js for server-side rendering and performance optimization, as well as learned how to effectively use date-fns for working with dates and time in the application."
+            }
+        ],
+        "footer": {
+            "text": "Thank you for viewing my portfolio! If you have any questions or suggestions, feel free to contact me."
+        }
+    },
+    "posts": [
+                "Frontend",
+                "Backend",
+                "Fullstack"
+            ],
+    "stack": [
+        {
+            "name": "JavaScript",
+            "icon": "https://img.icons8.com/?size=100&id=laVIsJnTtYoj&format=png&color=000000"
+        },
+        {
+            "name": "HTML",
+            "icon": "https://img.icons8.com/?size=100&id=CMVEhOBzk3Zp&format=png&color=000000"
+        },
+        {
+            "name": "CSS",
+            "icon": "https://img.icons8.com/?size=100&id=5cVdiiKKi0vX&format=png&color=000000"
+        },
+        {
+            "name": "React",
+            "icon": "https://img.icons8.com/?size=100&id=wPohyHO_qO1a&format=png&color=000000"
+        },
+        {
+            "name": "Next.js",
+            "icon": "https://img.icons8.com/?size=100&id=AU6Wc7r56Fxz&format=png&color=000000"
+        },
+        {
+            "name": "TypeScript",
+            "icon": "https://img.icons8.com/?size=100&id=HcQEdKCkXUs3&format=png&color=000000"
+        },
+        {
+            "name": "Tailwind CSS",
+            "icon": "https://img.icons8.com/?size=100&id=CIAZz2CYc6Kc&format=png&color=000000"
+        },
+        {
+            "name": "Nest.js",
+            "icon": "https://img.icons8.com/?size=100&id=9ESZMOeUioJS&format=png&color=000000"
+        },
+        {
+            "name": "PostgreSQL",
+            "icon": "https://img.icons8.com/?size=100&id=Pv4IGT0TSpt8&format=png&color=000000"
+        },
+        {
+            "name": "Git",
+            "icon": "https://img.icons8.com/?size=100&id=xBKl2pdJg5kk&format=png&color=000000"
+        }
+    ]
+}
