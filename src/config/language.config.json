@@ -17,7 +17,7 @@
             },
             {
                 "company": "Полюс Геосервис",
-                "position": "Frontend Developer",
+                "position": "Fullstack Developer",
                 "duration": "Январь 2024 - Январь 2026",
                 "description": "- Спроектировал архитектуру и реализовал frontend- и backend-части сервиса: от проработки UI/UX и адаптивной вёрстки до написания REST API, бизнес-логики и интеграции с базой данных.\n- Спроектировал схему реляционной БД, настроил миграции, индексы и оптимизировал сложные запросы, обеспечив стабильную работу при регулярном росте объёма отчётов.\n- Обеспечил качество кода: внедрил unit- и e2e-тестирование frontend-части, настроил автоматические проверки в CI/CD-пайплайне, что снизило количество дефектов в production.\n- Провёл комплексную оптимизацию производительности: ускорил загрузку ключевых страниц на 15%, сократил время отклика API, внедрил кэширование и lazy loading ресурсов.\n- Поддерживал сервис в production: мониторил метрики, оперативно устранял инциденты, проводил рефакторинг, обновлял зависимости и техническую документацию.\n\nСтек:  React, TypeScript, Node.js/NestJS, PostgreSQL, Docker, Git, Jest/Vitest, GitHub Actions, REST."            
             }
@@ -64,7 +64,7 @@
             },
             {
                 "company": "Polyus Geoservice",
-                "position": "Frontend Developer",
+                "position": "Fullstack Developer",
                 "duration": "January 2024 - January 2026",
                 "description": "- Designed the architecture and implemented both frontend and backend parts of the service: from UI/UX development and responsive design to writing REST API, business logic, and database integration.\n- Designed the relational database schema, set up migrations, indexes, and optimized complex queries, ensuring stable operation with regular growth in report volume.\n- Ensured code quality: implemented unit and e2e testing for the frontend part, set up automated checks in the CI/CD pipeline, which reduced the number of defects in production.\n- Conducted comprehensive performance optimization: accelerated loading of key pages by 15%, reduced API response time, implemented caching and lazy loading of resources.\n- Maintained the service in production: monitored metrics, promptly resolved incidents, conducted refactoring, updated dependencies and technical documentation.\n\nStack: React, TypeScript, Node.js/NestJS, PostgreSQL, Docker, Git, Jest/Vitest, GitHub Actions, REST."
             }
